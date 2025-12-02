@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportagem - Trabalho de português RUTH</title>
+</head>
+<body>
+     
+    <!--Ruth dos Santos e Henrique Correia Dias, Turma: 148-->
+
+    
+    <style>
+        nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-btn {
+    padding: 10px 18px;
+    font-size: 1.2em;
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fafafa;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        header {
+            background-color: #b79fd8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            min-height: 70vh;
+        }
+
+        .borda-conto {
+            background: #fff;
+            border: 2px solid #b79fd8;
+            border-radius: 16px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.18), 0 1.5px 6px rgba(74,144,226,0.12);
+            padding: 32px 24px;
+            max-width: 800px;
+            margin: 40px auto;
+            font-size: 1.25em;
+        }
+
+        .borda-conto h2, h4 {
+            margin-top: 0;
+            text-align: center;
+            color: #b79fd8;
+        }
+
+       
+        .borda-conto b {
+            display: block;
+            text-align: center;
+            margin: 32px 0 8px 0;
+            font-size: 1.15em;
+        }
+
+        .img-reportagem {
+            width: 100%;
+            max-width: 400px;
+            display: block;
+            margin: 24px auto;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        }
+        
+
+        .btn-modo {
+            display: block;
+            margin: 0 auto 24px auto;
+            padding: 10px 24px;
+            background: #b79fd8;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn-modo:hover {
+            background: #b79fd8;
+        }
+
+        footer {
+            background-color: #b79fd8;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        
+        @media (max-width: 600px) {
+            .borda-conto {
+                padding: 16px 8px;
+                margin: 16px 4px;
+                max-width: 98vw;
+            }
+            main {
+                padding: 8px;
+            }
+            header, footer {
+                padding: 10px;
+                font-size: 1em;
+            }
+            .btn-modo {
+                width: 100%;
+                font-size: 1em;
+            }
+            .img-reportagem {
+                
+                max-width: 98vw;
+            }
+        }
+
+        body.leitura {
+            background: #f5ecd7;
+            color: #222;
+        }
+        body.leitura .borda-conto {
+            background: #fffbe6;
+            color: #222;
+            border-color: #b79fd8;
+            font-size: 1.25em;
+            line-height: 2;
+            letter-spacing: 0.5px;
+        }
+        body.leitura header,
+        body.leitura footer {
+            background-color: #b79fd8;
+        }
+        body.leitura .btn-modo {
+            background: #b79fd8;
+        }
+        body.leitura .borda-conto h2 {
+            color: #b79fd8;
+        }
+
+        nav {
+    margin-top: 16px;
+    text-align: center;
+}
+.nav-btn {
+    display: inline-block;
+    background: #b79fd8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    margin: 0 8px;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.nav-btn:hover {
+    background: #b79fd8;
+    color: #fff;
+}
+    </style>
+</head>
+<body>
+
+<header>
+    
+<h1>REPORTAGEM</h1>
+<nav>
+    <a href="slamm.html" class="nav-btn">Slam</a>
+    <a href="contoo.html" class="nav-btn">Conto</a>
+    <a href="reportagemm.html" class="nav-btn">Reportagem</a>
+</nav>
+</header>
+
+<main>
+    <button class="btn-modo" onclick="alternarModoLeitura()">Alternar modo claro/leitura</button>
+    <div class="borda-conto">
+        <h2>RACISMO NA CULTURA POP</h2>
+        <h4>O racismo na indústria das animações</h4>
+        <p>
+       Citando a Disney podemos tomar como exemplo ela mesma e suas obras para abordar  este tópico. Moana, Encanto e Lilo e Stich que por mais que não sejam perfeitos eles tentam tomar um caminho condizente com a história e cultura dos povos originários dos locais no qual os filmes abordam.       Citando a Disney  podemos tomar como exemplo Ela mesma e suas obras para abordar  este tópico. Moana, Encanto e Lilo e Stich que por mais que não sejam perfeitos eles tentam tomar um caminho condizente com a história e cultura dos povos originários dos locais no qual os filmes abordam.
+        </p>
+
+
+<img src="imagemMoana.jpg" alt="Imagem com o Stich do lado da Moana" class="img-reportagem" width="400" height="200">
+<br>
+<p>
+Há filmes como Dumbo que a Disney tenta esconder as críticas tecidas desde que
+surgiu o filme. Segue os exemplos:
+<p>“O vocalista do grupo de corvos foi batizado de Jim Crow (crow significa corvo em
+inglês), uma referência às chamadas leis de Jim Crow que normatizaram a
+segregação racial pública no sul dos Estados Unidos.
+Esse é também o nome de um personagem de teatro que se vestia com roupas
+esfarrapadas e usava maquiagem preta para entreter – um retrato racista de escravos afroamericanos”.</p>
+</p>Fonte: <a href="fonte: https://www.brasildefato.com.br/">https://www.brasildefato.com.br/</a>
+
+<img src="disney.jpg" alt="Imagem de animação racista" class="img-reportagem">
+<p>
+    Em Peter Pan, por exemplo, os povos indígenas da América falam uma língua
+incompreensível e são frequentemente mencionados como "peles-vermelhas". Desde
+então, a Disney adicionou uma advertência sobre o conteúdo de vários de seus clássicos,
+incluindo Dumbo, Peter Pan e Aristogatas .A advertência diz: "Este programa inclui retratos
+negativos e/ou maus-tratos de povos ou culturas. Esses estereótipos eram errados na
+época e são errados.
+</p>
+<img src="peterPan.jpg" alt="Momento racista em Peter Pan" class="img-reportagem">
+<br><br>
+<h2> Adaptações Live Actions E Descaracterização De Personagens</h2>
+<p>
+    Nos últimos anos, a indústria do entretenimento tem dado passos importantes em
+direção à representatividade. E um dos debates mais polêmicos dessa mudança
+gira em torno da troca de etnia em personagens famosos nas versões live-action de
+animações clássicas.
+</p>
+<p>Dois exemplos emblemáticos dessa transformação
+são as atrizes Halle Bailey, que deu vida à
+princesa Ariel em A Pequena Sereia (2023), e
+Cynthia Erivo, que interpretou a Fada Azul no
+remake de Pinóquio (2022). Ambas são mulheres
+negras escaladas para papéis que, nas versões
+animadas, eram representados por personagens
+brancos.</p>
+<p>As escolhas causaram polêmica — especialmente
+nas redes sociais. Houve quem reclamasse da
+"mudança de aparência" dos personagens. Mas por trás das críticas, há também
+uma questão mais profunda: a resistência de parte do público à quebra de padrões
+antigos.
+</p>
+<p>Por outro lado, para muitas pessoas, essas
+mudanças são vistas como positivas e
+necessárias. A presença de Halle Bailey e
+Cynthia Erivo nas telas representa não apenas
+talento, mas também inclusão. Suas atuações
+reforçam a importância da diversidade e
+mostram que os protagonistas não precisam
+seguir um padrão visual único para conquistar o
+público. </p>
+<p>Além de simplesmente atender à demanda
+de um grupo específico de forma superficial e com
+fins apenas lucrativos, seria mais eficaz e respeitoso
+que a indústria do entretenimento investisse na
+criação de personagens, histórias e obras originais
+centradas em pessoas racialmente minorizadas.
+Desenvolver narrativas autênticas desde o início não apenas representaria essas
+populações de maneira mais significativa, como também agradaria a um público mais
+amplo. Essa abordagem equilibra os interesses de diferentes grupos e, ao mesmo tempo,
+poderia gerar maior retorno financeiro para os criadores das obras.</p>
+<img src="princesa.jpg" alt="Atriz da Pequena Sereia" class="img-reportagem">
+<h2>Desenhos antigos e o racismo silencioso que marcou gerações</h2>
+<p>
+Durante décadas, desenhos animados populares como Tom & Jerry, Looney
+Tunes, Pica-Pau, entre outros, apresentaram personagens e cenas com conteúdo
+abertamente racista ou recheado de estereótipos. Eram comuns as representações
+de pessoas negras com traços exagerados, vozes caricatas e comportamentos
+submissos, muitas vezes usados apenas como alívio cômico.<br><br>
+</p>
+<p>Essas produções, criadas em contextos
+historicamente marcados pela segregação e
+discriminação, ajudaram a reforçar ideias
+preconceituosas que, por muito tempo, passaram
+despercebidas pelo grande público. Mesmo sem a
+intenção declarada, esses desenhos naturalizaram
+o racismo e ajudaram a perpetuar imagens
+distorcidas sobre grupos raciais minorizados.</p>
+<p>Atualmente, muitos desses conteúdos vêm sendo
+revistos, editados ou até mesmo acompanhados
+de avisos sobre seu teor problemático. A revisão
+crítica desse material é vista como um passo
+necessário para compreender como o racismo se
+manifestou, e ainda se manifesta, no entretenimento.
+</p>
+<p>
+    Mais do que apagar o passado, reconhecer essas falhas é essencial para que novas
+gerações cresçam consumindo histórias que respeitem e representem a diversidade
+de forma justa e responsável.
+</p>
+<img src="casalgatos.jpg" alt="Fada" class="img-reportagem">
+
+<h2>Os casos de Pocahontas e Aladdin</h2>
+<p> Mesmo sendo lembrados com carinho por muitos, filmes clássicos da Disney como
+Pocahontas (1995) e Aladdin (1992) carregam estereótipos e representações problemáticas
+que refletem visões distorcidas sobre povos não-brancos.</p>
+<p>No caso de Pocahontas, o filme romantiza a colonização europeia e suaviza o impacto
+devastador que os colonizadores tiveram sobre os povos indígenas da América. A
+personagem principal, inspirada em uma figura histórica real, é retratada com traços
+ocidentalizados e sua história é adaptada para parecer um conto de amor, apagando a
+violência e o desequilíbrio de poder entre os colonos e os nativos.</p>
+<p>Já Aladdin, ambientado em um “Oriente” genérico, mistura elementos de diversas culturas
+árabes e sul-asiáticas sem fidelidade cultural, criando um cenário estereotipado e exótico.
+Além disso, personagens vilanizados costumam ter traços mais “carregados” e acentos
+mais marcados, enquanto os heróis são retratados com aparência e fala mais
+“ocidentalizadas”, o que reforça uma ideia sutil de superioridade cultural.</p>
+<p>Esses exemplos mostram como, mesmo em obras voltadas ao público infantil, o racismo
+pode aparecer de forma sutil e ser absorvido sem questionamento. Hoje, muitos desses
+filmes são alvo de críticas e debates, e plataformas de streaming já passaram a incluir
+alertas sobre representações culturais problemáticas.</p>
+<p>Reconhecer essas falhas é um passo importante para criar conteúdos mais justos e
+representativos no futuro.</p>
+<img src="pocahhontas.jpg" alt="Pocahontas" class="img-reportagem">
+<br>
+<h2>O racismo na indústria musical</h2>
+<p>
+    O racismo na indústria musical é um problema estrutural que se manifesta de diversas
+formas, desde a falta de representatividade de artistas negros em cargos de liderança até a
+apropriação cultural e a segregação de gêneros musicais. A indústria frequentemente silencia
+e marginaliza artistas negros, enquanto se beneficia da sua arte e estética. </p>
+<p>
+ Algumas formas de racismo na indústria musical são a falta de representatividade.
+A presença de negros em cargos de liderança e como artistas em destaque é
+significativamente menor em comparação com a população branca, tanto no Brasil quanto
+em outros países.</p>
+<p>
+    Apropriação cultural é outro exemplo. A indústria muitas vezes se apropria de elementos
+da cultura negra, como ritmos, estilos musicais e estéticas, sem reconhecer a origem e a
+importância desses elementos.A segregação de gêneros também está presente. Gêneros
+musicais associados a artistas negros, como o funk e o rap, muitas vezes são marginalizados
+e estigmatizados, enquanto outros gêneros que se beneficiam da influência da música negra
+são considerados mais "legítimos". </p>
+<p>
+    Há também discriminação e preconceito. Artistas negros enfrentam preconceitos e
+estereótipos que dificultam sua ascensão e sucesso na indústria.</p>
+<p>
+    Não esquecendo também do racismo institucional, afinal, a falta de políticas e práticas
+que promovam a igualdade racial na indústria musical perpetua o racismo estrutural. A
+estigmatização de artistas negros inclui associações a estereótipos negativos, falta de
+reconhecimento e respeito, além de refletir e perpetuar desigualdades sociais mais amplas,
+dificultando sua mobilidade social e econômica na indústria musical.</p>
+<br>
+<h2>Impacto do racismo na indústria musical</h2>
+<P>
+    A falta de representatividade e o preconceito impedem que artistas negros tenham
+acesso a oportunidades iguais no mercado musical. Também a apropriação cultural
+e a segregação de gêneros musicais contribuem para a desvalorização da cultura
+negra e sua invisibilidade aqui podemos ver alguns casos como: </P>
+<p>
+    — A polêmica envolvendo a remoção da música "Old Town Road" de Lil Nas X da
+parada country da "Billboard".</p>
+<p>
+    — A dificuldade de artistas negros em serem reconhecidos e valorizados em gêneros
+musicais como o sertanejo.</p>
+<p>
+    — A estigmatização e criminalização do funk como gênero musical e a falta de
+proteção trabalhista para seus artistas.</p>
+<p>
+    — A invisibilidade de mulheres negras na indústria musical, mesmo em gêneros
+populares como o sertanejo. </p>
+<p>
+    — É importante que a indústria musical reconheça e combata o racismo em todas as
+suas formas, promovendo a diversidade, a representatividade e a igualdade de
+oportunidades para todos os artistas, independentemente de sua raça ou origem.
+</p>
+<p>
+    A estigmatização de artistas negros inclui associações a estereótipos negativos,
+falta de reconhecimento e respeito, além de refletir e perpetuar desigualdades sociais
+mais amplas, dificultando sua mobilidade social e econômica na indústria musical.
+</p>
+    </div>
+</main>
+
+<footer>
+    <p>Ruth dos Santos e Henrique Correia Dias (148)</p>
+</footer>
+
+<script>
+function alternarModoLeitura() {
+    document.body.classList.toggle('leitura');
+}
+</script>
+</body>
+</html>

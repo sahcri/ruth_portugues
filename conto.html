@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conto - Trabalho de português RUTH</title>
+</head>
+<body>
+     
+    <!--Ruth dos Santos, Turma: 148-->
+
+    <style>
+
+        nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-btn {
+    padding: 10px 18px;
+    font-size: 1.2em;
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fafafa;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        header {
+            background-color: #b79fd8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+            min-height: 70vh;
+        }
+
+        .borda-conto {
+            background: #fff;
+            border: 2px solid #b79fd8;
+            border-radius: 16px;
+            box-shadow: 0 6px 24px rgba(0,0,0,0.18), 0 1.5px 6px rgba(74,144,226,0.12);
+            padding: 32px 24px;
+            max-width: 800px;
+            margin: 40px auto;
+            font-size: 1.25em;
+        }
+
+        .borda-conto h2 {
+            margin-top: 0;
+            text-align: center;
+            color: #b79fd8;
+        }
+
+        .btn-modo {
+            display: block;
+            margin: 0 auto 24px auto;
+            padding: 10px 24px;
+            background: #b79fd8;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .btn-modo:hover {
+            background: #b79fd8;
+        }
+
+        footer {
+            background-color: #b79fd8;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+       
+        @media (max-width: 600px) {
+            .borda-conto {
+                padding: 16px 8px;
+                margin: 16px 4px;
+                max-width: 98vw;
+            }
+            main {
+                padding: 8px;
+            }
+            header, footer {
+                padding: 10px;
+                font-size: 1em;
+            }
+            .btn-modo {
+                width: 100%;
+                font-size: 1em;
+            }
+        }
+
+        
+        body.leitura {
+            background: #f5ecd7;
+            color: #222;
+        }
+        body.leitura .borda-conto {
+            background: #fffbe6;
+            color: #222;
+            border-color: #b79fd8;
+            font-size: 1.25em;
+            line-height: 2;
+            letter-spacing: 0.5px;
+        }
+        body.leitura header,
+        body.leitura footer {
+            background-color: #b79fd8;
+        }
+        body.leitura .btn-modo {
+            background: #b79fd8;
+        }
+        body.leitura .borda-conto h2 {
+            color: #b79fd8;
+        }
+
+        nav {
+    margin-top: 16px;
+    text-align: center;
+}
+.nav-btn {
+    display: inline-block;
+    background: #b79fd8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px;
+    margin: 0 8px;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+.nav-btn:hover {
+    background: #b79fd8;
+    color: #fff;
+}
+
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CONTO (baseado no livro "Hibisco Roxo - Chimamanda Ngozi Adichie")</h1>
+<nav>
+    <a href="slamm.html" class="nav-btn">Slam</a>
+    <a href="contoo.html" class="nav-btn">Conto</a>
+    <a href="reportagemm.html" class="nav-btn">Reportagem</a>
+</nav>
+</header>
+
+<main>
+    <button class="btn-modo" onclick="alternarModoLeitura()">Alternar modo claro/leitura</button>
+    <div class="borda-conto">
+        <h2>Tragédias familiares</h2>
+       <p> Desde que Papa faleceu, nada lá em casa tem corrido bem. Mama não está conseguindo manter as despesas sozinha, e eu e Jaja não conseguimos ajudar tanto. 
+Tudo tem andado de cabeça para baixo; nossa rotina foi quebrada, e só lembram de nós por causa do falecimento de Papa, mas não pensam em como eu, Jaja e Mama nos sentimos, apenas pensam em Papa e na pessoa que ele era, mesmo que ele já tenha falecido há dois meses.
+Papa se foi em um acidente, o qual não sou capaz de descrever em detalhes. Porém, Papa morreu a caminho do hospital. Após sua morte, o povo todo ficou em um luto de aproximadamente 2 a 3 dias, visto sua enorme importância para os moradores. Mas, mesmo assim, ele ainda não era alguém bom para nós, o que foi algo que refleti desde a sua morte. Mas, querendo ou não, Papa era um bom pai.
+Não aguento mais todas as noites ver Mama chorar.
+Jaja saiu da escola a procura de um emprego, mas sem sucesso. Sem contar o fato de que Jaja foi assaltado há cerca de 2 semanas atrás, perdendo o último dinheiro que tinhamos para pagar as contas. Não sei como ainda não cortaram nossa luz e água.</p>
+<p>----------------------------</p>
+<p>Jaja ainda está à procura de um emprego, ou qualquer coisa que nos consiga uma renda. Mama recentemente perdeu sua vaga em seu trabalho, visto todos os seus atrasos no último mês. Estou preocupada com sua saúde.</p>
+
+<p>----------------------------</p>
+<p>Não tenho ido bem na escola desde então. Minhas notas caíram muito, e não sou mais uma das melhores da classe. Me concentrar nas aulas atualmente é um dos meus maiores desafios.
+Quando eu ainda era boa, Papa reclamava de eu não ser a melhor. Aquilo me desmotivava. Ouvir gritos ao invés de uma parabenização toda vez que eu não tirava nota máxima era frustrante. Papa dizia: "Isso é pelo seu bem! Você ainda tem sorte que suas punições não acontecem sempre. Eu sou seu pai e penso no seu bom futuro.". Aquelas punições eram meu pesadelo. Se Papa chegava de mau humor em casa depois do trabalho, qualquer mínimo erro sobrava para mim, Jaja ou Mama, e Papa nos fazia assistir para "servir de lição". </p>
+
+<p>----------------------------</p>
+<p>Estou pensando, faz algumas semanas, em abandonar a escola para tentar ajudar Mama e Jaja com as despesas da casa. Mama continua desempregada e mal sai do sofá, sua situação piora a cada dia, e Jaja está conseguindo alguns trabalhos para conseguirmos comprar alimento, mas muitas vezes, passamos fome. Irei comentar sobre meus planos com Mama mais tarde. Quero esperar ela melhorar, se isso realmente acontecer...</p>
+<p>----------------------------</p>
+<p>Mama não melhorou. Comecei a faltar à escola para cuidar dela. Já fazem mais de duas semanas desde que pensei em abandonar a escola, mas já estou com tantas faltas que nem sei se faz alguma diferença. Jaja está exausto, e ele tenta não demonstrar, mas é nítido seu cansaço. Tenho notado que Jaja esconde cada vez mais seu corpo, mesmo no calor. Me pergunto o que está acontecendo. Queria muito conversar com ele, mas irei respeitar seu espaço. 
+Sinto falta das nossas rotinas. Tudo está tão confuso agora. Papai fazia nossas rotinas detalhadamente, com cada horário definido exatamente. Papa brigava quando não seguiamos a rotina. Ele não se importava se estivéssemos cansados ou até doentes, Papa iria criar os horários exatos do dia que iríamos ao médico ou hospital. Era exaustivo, mas honestamente, sinto sua falta. Definitivamente não era pior do que estamos passando agora. 
+A escola me mandou uma carta a respeito das minhas faltas. Algum responsável terá que ir até à escola para justificar todas as minhas ausências. Mas minha única responsável não tem condições nenhuma de ir. Provavelmente o Conselho Tutelar virá à minha casa. </p>
+<p>----------------------------</p>
+Simplesmente não acredito no que está acontecendo, eu quero acordar desse pesadelo. Jaja foi pego roubando comida e dinheiro do mercado perto de casa, e será preso por alguns meses, e ainda irão investigar se Jaja não cometeu mais nenhum crime. Mama, que já estava devastada, ficou pior com a notícia. Eu não sei como vamos sobreviver sem Jaja. 
+<p>----------------------------</p>
+<p>Por enquanto, eu e Mama estamos sobrevivendo das caridades do povo, mas, recentemente, as doações estão diminuindo. Estavam ameaçando Mama para ela se tocar e arrumar um emprego. Mas como, se mal levantar Mama consegue?</p>
+
+<p>----------------------------</p>
+<p>Eu estava no quarto de Jaja, matando a saudade do meu irmão mais velho favorito (e único). Quando eu encontro um papel embaixo de seu travesseiro. Me segurei muito para não abrir, mas eu precisava saber o que se passava na cabeça de Jaja, então, abri e li cada linha e detalhe. 
+Era uma carta. Jaja planejou seu assalto e ser preso. Não aguentava mais todo aquele sofrimento, e sabia que eu iria encontrar aquela carta. Jaja explicou que, se tudo desse certo, iria morrer ali mesmo, na prisão, e eu e Mama nem saberíamos, pois Jaja não queria que sua situação piorasse. No final, ele se desculpou por não conseguir manter w casa de pé, ou pelo menos nos dar alimento. Uma lâmina estava presa com fita adesiva transparente logo ao final, acho que nunca chorei tanto em toda a minha vida. </p>
+<p>----------------------------
+                </p>
+<p>----------------------------
+            </p>
+<p>Eu piorei, Mama piorou, e não tivemos mais notícias de Jaja. Mama não parece mais ela mesma. Ouvi vizinhos dizerem que chamarão o conselho tutelar aqui em casa, e como Mama não tem mais condições para me criar, eu provavelmente serei levada a um orfanato em outra cidade, e Mama seria internada. Eu não quero ficar sozinha. Eu não aguento mais.</p>
+
+<p>----------------------------</p>
+</p>----------------------------</p>
+
+</p>Bom, dito e feito. Dei um último adeus para Mama. Ela fazia comentários suicidas e implorava para eu ir com ela. Eu também queria, Mama. Sentirei sua falta.</p>
+
+    </div>
+</main>
+
+<footer>
+    <p>Ruth dos Santos (148)</p>
+</footer>
+
+<script>
+function alternarModoLeitura() {
+    document.body.classList.toggle('leitura');
+}
+</script>
+</body>
+</html>
